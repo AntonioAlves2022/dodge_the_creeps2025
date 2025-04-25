@@ -8,7 +8,7 @@ var screen_size
 # funções da engine
 func _ready() -> void:
 	screen_size = get_viewport_rect().size
-	# hide() #esconde o player
+	#hide() #esconde o player
 func _process(delta: float) -> void:
 	var velocity = Vector2.ZERO
 	if Input.is_action_pressed('move right'):
